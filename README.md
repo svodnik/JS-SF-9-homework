@@ -40,9 +40,9 @@ If any files are in the pull request outside of your personal folder, we will se
 
 **Submit homework by pushing to your JS-SF-9-homework repo, then submit a pull request**
 
-<!--
 
- |#       | Assignment | Class Topic | Due Date
+
+ <!-- |#       | Assignment | Class Topic | Due Date
  :------: | :--------- | :---------- | :-------
   1      | `99-bottles-of-beer` | 02-data-types      | Monday, September 18th
   2      | `fizzBuzz`, `temperatureConverter`, read about Hubot | 04-functions-scope | Monday, September 25th
@@ -51,6 +51,6 @@ If any files are in the pull request outside of your personal folder, we will se
   5      | `jquery-ajax` | 10-ajax-api | Monday, October 16th 
   6      | `500px` | 12-advanced-apis | Monday, October 23rd
   7      | `Feedr` project | 13-feedr-lab | Monday, October 30th 
- | -     | No more homework! Focus on `Feedr` & your final project :) | - | -
+ | -     | No more homework! Focus on `Feedr` & your final project :) | - | - | -->
 
- -->
+
