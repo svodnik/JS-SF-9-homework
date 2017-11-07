@@ -2,7 +2,7 @@ JavaScript Development Homework Repository
 ==========================================
 
 > Office hours with Sasha (`@sasha` on Slack):<br>
-Tuesdauys & Thursdays from 5:00-6:00, located at the common table to the left of the front desk.
+Tuesdays & Thursdays from 5:00-6:00, located at the common table to the left of the front desk.
 
 How To Use This Repo
 --------------------
