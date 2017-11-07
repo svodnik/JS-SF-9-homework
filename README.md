@@ -11,15 +11,14 @@ This is the repository where you'll submit your homework.
 Follow these directions closely to switch over to this repository.
 
 1. Fork this repository.
-2. Clone your fork to your ```~/code``` folder.
-3. Create a directory in the ```JS-SF-9-homework``` folder using your real name and github account name. Example: ```JS-SF-9-homework/Sasha-svodnik```. That will make it easier for us to remember everyone's github name. :)
-4. For each homework make sure to copy over the `Homework-x` directory to your named directory. Example for homework #2: `JS-SF-9-homework/Sasha-svodnik/Homework-2/hubot.js`
+2. Clone your fork to your `~/JSD` folder.
+3. Create a directory in the `JS-SF-9-homework` folder using your first name, a dash, and your github account name (for instance, `Sasha-svodnik`. That will make it easier for me to remember everyone's github name. :)
+4. For each homework assignment, make sure to copy over the `Homework-x` directory from your start files to your named homework directory.
 
 Example of how your local homework directory should be structured:
 
 
-    |-- code/
-        |-- JS-SF-9-resources/ (cloned from Github)
+    |-- JSD/
         |-- JS-SF-9-homework/ (cloned from Github)
             |-- firstName-githubUsername/
                 |-- Homework-1/
@@ -30,6 +29,7 @@ Example of how your local homework directory should be structured:
                 |-- Homework-3/
                 |-- Homework-4/
                 |-- Homework-5/
+                    ...
 
 
 
