@@ -12,7 +12,7 @@ Follow these directions closely to switch over to this repository.
 
 1. Fork this repository.
 2. Clone your fork to your `~/JSD` folder.
-3. Create a directory in the `JS-SF-9-homework` folder using your first name, a dash, and your github account name (for instance, `Sasha-svodnik`. That will make it easier for me to remember everyone's github name. :)
+3. Create a directory in the `JS-SF-9-homework` folder using your first name, a dash, and your github account name (for instance, `Sasha-svodnik`). That will make it easier for me to remember everyone's github name. :)
 4. For each homework assignment, make sure to copy over the `Homework-x` directory from your start files to your named homework directory.
 
 Example of how your local homework directory should be structured:
@@ -36,7 +36,7 @@ Example of how your local homework directory should be structured:
 Weekly Homework
 ---------------
 Homework will be [assigned on Thursdays](https://svodnik.github.io/jsd9/pages/homework.html), due the following Tuesday.     
-If any files are in the pull request outside of your personal folder, we will send it back to you to fix!
+If any files are in the pull request outside of your personal folder, I will send it back to you to fix!
 
 **Submit homework by pushing to your JS-SF-9-homework repo, then submit a pull request**
 
