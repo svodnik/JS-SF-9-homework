@@ -10,3 +10,7 @@
   conditional statements at https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else). 
 */
 
+for (var i = 99; i>0; i--){
+  b=i-1
+  console.log(i + " bottles of beer on the wall, " + i + " bottles of beer! Take one down, pass it around, " + b + " bottles of beer on the wall!")
+}
