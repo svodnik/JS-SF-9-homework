@@ -33,7 +33,6 @@ let showResult = document.getElementById('result');
 
 // add click event listener to fahrenheitToCelsius
 let fahrenheitToCelsiusEventHandler = fahrenheitToCelsius.addEventListener("click", function() {
-    // console.log("fahrenheit was clicked");
 
     // store temperature from input field
     let temperature = document.querySelector('#temperature').value;
@@ -43,7 +42,6 @@ let fahrenheitToCelsiusEventHandler = fahrenheitToCelsius.addEventListener("clic
 
 // add click event listener to celsiusToFahrenheit
 let celsiusToFahrenheitEventHandler = celsiusToFahrenheit.addEventListener("click", function() {
-    // console.log("celsius was clicked");
 
     // store temperature from input field
     let temperature = document.querySelector('#temperature').value;
@@ -53,24 +51,18 @@ let celsiusToFahrenheitEventHandler = celsiusToFahrenheit.addEventListener("clic
 
 // add click event listener to clearContents
 let clearContentsEventHandler = clearContents.addEventListener("click", function() {
-    // console.log("clearContents was clicked");
     // store temperature from input field
     let temperature = document.querySelector('#temperature').value = ' ';
-    // console.log(temperature);
 
     reset(temperature);
 });
 
 // convert fahrenheit to celsius
 function fahrenheitToCelsiusConverter(temperature) {
-    // console.log(temperature + " " + "fahrenheit");
-
     let convertedTemperature = (temperature - 32) / 1.8;
-    // console.log(convertedTemperature);
 
     // round to whole number
     let roundToWholeNumber = Math.round(convertedTemperature);
-    // console.log(temperature + " " + "converted from Fahrenheit to Celsius is" + " " + roundToWholeNumber);
 
     showResult.innerHTML = '"' + temperature + '°' + " " + "converted from Fahrenheit to Celsius is" + " " + roundToWholeNumber + '°"';
 
@@ -79,14 +71,10 @@ function fahrenheitToCelsiusConverter(temperature) {
 
 // convert celsius to fahrenheit
 function celsiusToFahrenheitConverter(temperature) {
-    // console.log(celsiusTemperature + " " + "celsius");
-
     let convertedTemperature = (1.8 * temperature) + 32;
-    // console.log(convertedTemperature);
 
     // round to whole number
     let roundToWholeNumber = Math.round(convertedTemperature);
-    // console.log(temperature + " " + "converted from Celsius to Fahrenheit is" + " " + roundToWholeNumber);
 
     showResult.innerHTML = '"' + temperature + '°' + " " + "converted from Celsius to Fahrenheit is" + " " + roundToWholeNumber + '°"';
 
@@ -96,7 +84,6 @@ function celsiusToFahrenheitConverter(temperature) {
 // reset form
 function reset(temperature) {
     if (temperature === ' ') {
-        // console.log("empty");
         showResult.innerHTML = ' ';
 
         // add placeholder attribute
