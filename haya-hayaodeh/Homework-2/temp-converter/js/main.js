@@ -1,12 +1,29 @@
-/*
+
 1. Create a function that accepts a temperature value in Fahrenheit and converts it to Celsius.
    Note: Equation to convert F to C:
    C = (F - 32) / 1.8
    Test your function.
+
+function convertToCl(degree) {
+  var c = (degree - 32) / 1.8;
+  return c;
+}
+
+
+
 2. Create a second function that accepts a temperature value in Celsius and converts it to Fahrenheit.
    Note: Equation to convert C to F:
    F = 1.8 * C + 32
    Test your function.
+
+function convertToFh(degree) {
+  var f = 1.8 * degree + 32;
+  return f;
+}
+
+
+
+
 BONUS 1: Update your functions to use the value entered in the text box on the web page, and to perform calculations only when the appropriate button is clicked:
 	1.  Set the value of the temp variable to the value of the element with the id value 'temperature'.   
 	    (Hint: read about the document.querySelector() method.)
