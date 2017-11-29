@@ -26,7 +26,6 @@ let fahrenheitToCelsius = document.getElementById('fahrenheit_to_celsius');
 // assign #celsius_to_fahrenheit variable
 let celsiusToFahrenheit = document.getElementById('celsius_to_fahrenheit');
 
-// assign #celsius_to_fahrenheit variable
 let clearContents = document.getElementById('clear_contents');
 
 let showResult = document.getElementById('result');
