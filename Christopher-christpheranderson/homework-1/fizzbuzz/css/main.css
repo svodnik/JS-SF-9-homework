@@ -1,0 +1,26 @@
+*{
+padding: 0;
+margin: 0;
+outline: 0;
+}
+
+nav{
+	background-color: black;
+}
+
+ul{
+	text-align: center;
+}
+
+li{
+	display: inline-block;
+	padding: 10px;
+
+}
+
+
+
+a{
+	text-decoration: none;
+	color: white;
+}
