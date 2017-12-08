@@ -39,13 +39,17 @@ for(let i = 0; i < flickrObjItemsLength; i++) {
 3. Create a new array called 'links'. Iterate through the items array in flickrObj and store the the links to each item in the 'links' array.
 */
 
+// use push to add to array
+let links = [];
 
+// create var outside
 for(let i = 0; i < flickrObjItemsLength; i++) {
 	let currentItem = flickrObjItems[i];
 	let currentLink = currentItem["link"];
-	let links = [currentLink];
-	console.log(links);
+	links.push(currentLink);
 }
+
+// console.log(links);
 
 
 /*
@@ -53,12 +57,8 @@ for(let i = 0; i < flickrObjItemsLength; i++) {
 Did it create a valid JSON string?
 */
 
-for(let i = 0; i < flickrObjItemsLength; i++) {
-	let currentItem = flickrObjItems[i];
-	let currentLink = currentItem["link"];
-	let links = [currentLink];
-	// console.log(links);
+// use variable from above to stringify
 
-	let linksJSON = JSON.stringify({ links });
-	console.log(linksJSON);
-}
+let linksJSON = JSON.stringify(links);
+
+// console.log(linksJSON);
