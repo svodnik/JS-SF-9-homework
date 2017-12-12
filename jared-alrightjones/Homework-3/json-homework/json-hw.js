@@ -1,4 +1,4 @@
-j/**
+/**
 Follow the instructions below to pratice turning JSON strings into JavaScript objects.
 **/
 
