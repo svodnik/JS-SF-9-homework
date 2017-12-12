@@ -37,20 +37,17 @@ for (let i = 99; i > 0; i--) {
 	}
 
 	createListItemTextNode = document.createTextNode(quote);
-	console.log(quote);
+	// console.log(quote);
 	// append list item content into list item node
 	let showQuote = createListItemElement.appendChild(createListItemTextNode);
 
-	console.log(showQuote + "\n");
+	// console.log(showQuote);
 
-
-
-
-	separateQuote();
+	// separateQuote();
 }
 
 // separate into individual quotes
-function separateQuote() {
-	console.log('do stuff');
-}
+// function separateQuote() {
+// 	console.log('do stuff');
+// }
 
