@@ -15,13 +15,13 @@ let createListItemTextNode;
 let quote;
 let beerArray = [];
 
-beerArray.push(quote);
 // if i is greater than 0 and less than 100, subtract 1
-for (let i = 99; i > 0; i--) {
+for (let i = 99; i >= 0; i--) {
 	let j = i - 1;
 	let bottles = "bottles";
 	let bottle = bottles.substr(0, bottles.length-1);
 	let currentQuote = beerArray[i];
+	let showQuote;
 
 	// if j and i are both greater than 1, 'bottles' = 'bottles'
 	if (j > 1 && i > 1){
@@ -39,9 +39,12 @@ for (let i = 99; i > 0; i--) {
 	createListItemTextNode = document.createTextNode(quote);
 	// console.log(quote);
 	// append list item content into list item node
-	let showQuote = createListItemElement.appendChild(createListItemTextNode);
+	showQuote = createListItemElement.appendChild(createListItemTextNode);
 
 	// console.log(showQuote);
+
+	beerArray.push(quote);
+	console.log(beerArray);
 
 	// separateQuote();
 }
