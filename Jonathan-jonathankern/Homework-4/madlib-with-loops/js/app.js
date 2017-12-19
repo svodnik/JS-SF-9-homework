@@ -72,4 +72,5 @@ printButton.addEventListener('click', function(element) {
 	// add to dom
 	h2Element.appendChild(h2TextNode);
 
+
 }, false);
