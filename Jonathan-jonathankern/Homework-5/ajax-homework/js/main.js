@@ -34,8 +34,10 @@
 'use strict';
 
 const weatherUrl = 'http://api.openweathermap.org/data/2.5/weather?zip=94102,us';
-const weatherUrl2 = 'http://api.weatherunlocked.com/api/trigger/us.94102';
 
+const apiKey = '4bc121b3a8895587d1d363519f13bb5d';
+const apiKey2 = '65d845df459178101b4cbac20e1c9e42';
+const apiAppId = '955c5aa9';
 
 const $getTemperatureSelector = $('#temp');
 const $getTemperatureSelector2 = $('#temp2');
@@ -73,9 +75,8 @@ function displayTemperature(temperature) {
     $getTemperatureSelector.html(temperature);
 }
 
-
 $.ajax({
-    url: 'http://api.weatherunlocked.com/api/trigger/us.94102/forecast tomorrow temperature gt 10 includecurrent?app_id={{ APP_ID }}&app_key={{ APP_KEY }}',
+    url: 'http://api.weatherunlocked.com/api/trigger/us.94102/forecast tomorrow temperature gt 10 includecurrent?app_id=955c5aa9&app_key=65d845df459178101b4cbac20e1c9e42',
     type: 'GET',
     data: {
         format: 'json'
