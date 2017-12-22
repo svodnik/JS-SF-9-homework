@@ -68,7 +68,7 @@ const $surveyList = $('#surveyList');
    let $appendLabelToList = $newSurveyListItem.append($newLabel);
 
    // create answer input
-
+   let $newInput = $('<input>');
 
    // append answer input to li
 
