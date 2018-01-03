@@ -90,21 +90,21 @@ function handleResponseSuccess(response) {
 		const $imagesElement = $('.images');
 
 		// get photo url
-		const photoUrl = $photo[i].image_url;
-		// console.log(photoUrl);
+		const $photoUrl = $photo[i].image_url;
+		// console.log($photoUrl);
 
 		// get rating
 		const $rating = $photo[i].rating;
 		// console.log($rating);
 
 		// create source for img
-		const $imageSource = $imageElement.attr('src', photoUrl);
+		const $imageSource = $imageElement.attr('src', $photoUrl);
 		// console.log($imageSource);
 
 		// append child to parent
 		$imagesElement.append($imageElement);
 
 		// append photo url to imageElement
-		$imageElement.append(photoUrl);
+		$imageElement.append($photoUrl);
 	}
 }
